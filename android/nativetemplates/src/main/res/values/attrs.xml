@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TemplateView">
+        <attr name="gnt_template_type" format="enum">
+            <enum name="medium" value="1" />
+            <enum name="small" value="2" />
+        </attr>
+    </declare-styleable>
+</resources>

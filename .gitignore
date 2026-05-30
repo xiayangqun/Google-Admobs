@@ -1,0 +1,12 @@
+# Compiled output
+dist/
+
+# Dependencies
+node_modules/
+
+# TypeScript build info
+tsconfig.tsbuildinfo
+
+# macOS
+.DS_Store
+configure_xcode_for_admob.log

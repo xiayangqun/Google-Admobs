@@ -1,0 +1,38 @@
+{
+    "name": "admob",
+    "title": "i18n:admob.title",
+    "package_version": 2,
+    "version": "1.0.0",
+    "description": "i18n:admob.description",
+    "main": "./dist/main.js",
+    "editor": ">=3.8.8",
+    "author": "Cocos Creator",
+    "contributions": {
+        "builder": "./dist/builder.js",
+        "asset-db": {
+            "mount": {
+                "path": "./assets",
+                "readonly": true
+            }
+        },
+        "messages": {
+            "open-panel": {
+                "methods": [
+                    "openPanel"
+                ]
+            }
+        }
+    },
+    "dependencies": {
+        "@types/fs-extra": "^5.0.4",
+        "@types/node": "^14.5.2",
+        "fs-extra": "^10.0.0"
+    },
+    "devDependencies": {
+        "typescript": "^4.3.4"
+    },
+    "scripts": {
+        "build": "tsc -b",
+        "watch": "tsc -w"
+    }
+}
