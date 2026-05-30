@@ -28,10 +28,6 @@ This extension is based on the [original plugin on Cocos Store](https://store.co
 
 Place the plugin into the `extensions` directory of your Cocos Creator project.
 
-**Method 2: Developer Import**
-
-In the Cocos Creator editor, open `Extension Manager`, click the dropdown menu next to `Import Extension File (.zip)` and select `Developer Import`, then choose this plugin project directory. This will create a symbolic link in the Cocos project's `extensions` directory, which is convenient for development and debugging.
-
 ---
 
 ## Build Panel Configuration
